@@ -6,5 +6,5 @@ class Customer:
         self.name = name
 
 
-person1 = Customer(6)
-print(person1.name)
+customer = Customer(6)
+print(customer.name)
