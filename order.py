@@ -3,7 +3,8 @@ from coffee import Coffee
 
 
 class Order():
-
+    orders = []
+    
     def __init__(self, customer, coffee, price):
         self.customer = customer
         self.coffee = coffee
@@ -48,6 +49,6 @@ coffee = Coffee("Latte")
 
 order = Order(c, coffee, 5.5)
 
-print(order.customer.name)  # Judy
-print(order.coffee.name)    # Latte
-print(order.price)          # 5.5
+print(order.customer.name)  
+print(order.coffee.name)    
+print(order.price)          
